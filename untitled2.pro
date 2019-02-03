@@ -16,8 +16,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp
-INCLUDEPATH += C:/SDL2-2.0.9/x86_64-w64-mingw32/include/SDL2
-LIBS +="-LC:\SDL2-2.0.9\x86_64-w64-mingw32\lib" -lSDL2
+INCLUDEPATH += C:/SDL2-2.0.9/x86_64-w64-mingw32/include/SDL2    #set yours peth to .h files
+LIBS +="-LC:\SDL2-2.0.9\x86_64-w64-mingw32\lib" -lSDL2  #set yourself path to libs
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
